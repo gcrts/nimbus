@@ -1,0 +1,8 @@
+# Generated test data (synthetic, not for the repo)
+work/*
+!work/fake_arm.py
+!work/fake_sftool.py
+__pycache__/
+uart_logs/
+*.bin
+!image/m1_tools6_app_0x10009000.bin

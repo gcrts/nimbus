@@ -1,0 +1,79 @@
+{
+ "format": "m1-patch-1",
+ "target": "NIIMBOT B1 Pro FW 2.12 app region",
+ "base": "0x10009000",
+ "original_sha256": "3fef8421bf72366a82e81efc1c1be51c8cf9ecacc1c8297a1e9cb942e6df5a98",
+ "original_length": 479696,
+ "result_sha256": "859bb64322b4dc94bf0c7ecf299249fcb954b824f4da503bedeb2f344b458811",
+ "note": "Delta only: new bytes at flash addresses. Contains no original firmware bytes. Apply to YOUR OWN dump.",
+ "records": [
+  {
+   "addr": "0x10014ed6",
+   "new": "00"
+  },
+  {
+   "addr": "0x10024538",
+   "new": "00"
+  },
+  {
+   "addr": "0x100346aa",
+   "new": "00"
+  },
+  {
+   "addr": "0x10042674",
+   "new": "762575206e2575206c257520702575207325"
+  },
+  {
+   "addr": "0x10042687",
+   "new": "3878206f253032780a000a2530327800726669643a002d005f5f636d645f7265636f6e5f72666964002d005f5f636d645f7265636f6e5f6d617400"
+  },
+  {
+   "addr": "0x100429c8",
+   "new": "30b50e4b0e480f4c0f4d93f82910da8db3f86e30b0f86200d4f8754595f8f85085b080b20090cde901459bb292b2074810f0acfe002005b030bd00bf00c501200001012000f0002000c6012074260410f8b50b4810f09afe"
+  },
+  {
+   "addr": "0x10042a21",
+   "new": "240a4e0a4d0b4f14f00f0f0cbf30462846e15d013410"
+  },
+  {
+   "addr": "0x10042a38",
+   "new": "8dfe842cf4d1064810f088fe"
+  },
+  {
+   "addr": "0x10042a45",
+   "new": "20f8bd97260410912604109226041020c501208f260410"
+  },
+  {
+   "addr": "0x100777c4",
+   "new": "b22604"
+  },
+  {
+   "addr": "0x100777c8",
+   "new": "b02604"
+  },
+  {
+   "addr": "0x100777cc",
+   "new": "c92904"
+  },
+  {
+   "addr": "0x100777dc",
+   "new": "9f2604"
+  },
+  {
+   "addr": "0x100777e0",
+   "new": "9d2604"
+  },
+  {
+   "addr": "0x100777e4",
+   "new": "192a"
+  },
+  {
+   "addr": "0x100777f0",
+   "new": "f1c203"
+  },
+  {
+   "addr": "0x1007782c",
+   "new": "f1c203"
+  }
+ ]
+}
